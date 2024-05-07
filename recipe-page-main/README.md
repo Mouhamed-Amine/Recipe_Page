@@ -5,16 +5,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+  - [Building your project](#building)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Deploying your project](#deplyment)
+  - [Built with](#BuiltLanguage)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 The challenge is to build out this recipe page and get it looking as close to the design as possible.
