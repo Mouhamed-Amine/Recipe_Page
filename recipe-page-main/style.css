@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:wght@900&family=Raleway&family=Roboto+Condensed&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Outfit:wght@100..900&family=Playfair+Display:wght@900&family=Raleway&family=Roboto+Condensed&family=Young+Serif&display=swap');
+/*
+Colors
+*/
+:root{
+   
+/* ### Primary */
+--Nutmeg : hsl(14, 45%, 36%);
+--Dark_Raspberry: hsl(332, 51%, 32%);
+
+/*### Neutral*/
+--White: hsl(0, 0%, 100%);
+--Rose_White: hsl(330, 100%, 98%);
+--Eggshell: hsl(30, 54%, 90%);
+--Light_Grey: hsl(30, 18%, 87%);
+--Wenge_Brown: hsl(30, 10%, 34%);
+--Dark_Charcoal: hsl(24, 5%, 18%);
+
+/*Fonts*/
+--Young_Serif:"Young Serif",serif;
+--Outfit:"Outfit", sans-serif;
+
+--font_size:16px;
+
+
+/* Weights */
+--w-400:400;
+--w-600:600;
+--w-700:700;
+
+}
+
+body{
+    background-color: bisque;
+}
+
+.recipe_description h1{
+    font-family: var(--Young_Serif);
+}
+span,p,li{
+    font-family: var(--Outfit);
+}
+
+p{
+    font-size: var(--font_size);
+    word-spacing: 5px;
+}
+h2{
+    color: var(--Nutmeg);
+}
+.Instructions,.Ingredients{
+    padding:15px 5px;
+    border-bottom: 1px solid var(--Light_Grey);
+}
+
+
+.recipe{
+    background-color: var(--White);
+    margin: auto;
+    width: 30%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.content{
+    position: relative;
+    padding:1.9rem
+}
+
+.omlette{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    max-width: 100%;
+}
+
+.preparation_card{
+    background-color:var(--Rose_White);
+    padding:1rem ;
+}
+.preparation_card > span{
+    color: var(--Dark_Raspberry);
+    font-weight: var(--w-700);
+    margin-left: 10px;
+}
+
+.preparation_card .items > ul li{
+margin: 2px 10px 10px 5px;
+}
+
+
+.Instructions .items li::marker{
+    color:var(--Nutmeg);
+    font-weight: var(--w-700);
+}
+.Instructions .items li,.Ingredients .items li {
+    margin:15px 5px;
+}
+
+.Nutrition table{
+    width: 100%;
+    text-align: left;
+}
+.Nutrition th{
+    border-bottom: 1px solid var(--Light_Grey);
+    padding: 10px;
+}
+.Nutrition .metric{
+    color: var(--Dark_Raspberry);
+    font-weight: bold
+
+}
+
+
+.attribution{
+    font-family: var(--Young_Serif);
+    text-align: center;
+    margin: 1rem;
+}
+
+
+@media only screen and (max-width:1000px) {
+    .recipe{
+        width: 100%;
+    }
+    
+}
+
+
