@@ -29,8 +29,8 @@ Free to use any tools to help you complete the challenge.
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-omlette-recipe-page-using-scss-and-html-QOMDb36KpC
+- Live Site URL: https://recipe-page-peach-zeta.vercel.app
 
 ### Building your project
 
